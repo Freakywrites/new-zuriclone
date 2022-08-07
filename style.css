@@ -1,0 +1,233 @@
+@font-face {
+  font-family: Averta;
+  src: url(https://res.cloudinary.com/dafsch2zs//raw/upload/v1596618987/Zuri%Landing/AvertaDemoPECutteDemo-Regular_dghpn7.otf);
+}
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Averta, sans-serif;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  max-width: 1440px;
+}
+
+.logo-position {
+  text-align: center;
+  margin-top: 4.3em;
+}
+
+:root {
+  --background-text: rgb(230, 98, 98);
+  --text: white;
+}
+
+.hero-container {
+  margin: 0 auto;
+  max-width: 700px;
+  text-align: center;
+  padding: 2em;
+}
+h1 {
+  color: rgb(59, 58, 58);
+  font-weight: 800;
+  font-size: 2.2rem;
+  margin-top: 2.2em;
+}
+
+.hero-container p {
+  margin-top: 2em;
+  margin-bottom: 4.8em;
+  color: rgb(102, 100, 100);
+}
+
+.training-link {
+  color: var(--background-text);
+}
+
+.btn-newPage1 {
+  padding: 1.1em;
+  margin-right: 1.6em;
+  margin-bottom: 2em;
+  border-color: red;
+  border-width: thin;
+  color: white;
+  font-size: 1em;
+  background-color: rgba(255, 0, 0, 0.856);
+}
+.btn-newPage1:hover {
+  background-color: transparent;
+  color: red;
+}
+
+.btn-newPage2 {
+  padding: 1.1em;
+  background-color: transparent;
+  border-color: red;
+  border-width: thin;
+  color: rgb(192, 17, 17);
+  font-size: 1em;
+}
+
+.btn-newPage2:hover {
+  color: white;
+  background-color: rgba(255, 0, 0, 0.856);
+}
+
+.btn-x {
+  font-size: 1rem;
+}
+
+.our-offer {
+  text-align: center;
+  margin-top: 19em;
+}
+
+.offer-zuri {
+  color: red;
+}
+
+.offer-zuri2 {
+  color: rgb(58, 57, 57);
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 5.2em;
+}
+
+.more-info-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info1,
+.info2,
+.info3 {
+  width: 400px;
+  margin: 2em;
+  padding: 2.6em;
+  background-color: rgba(255, 194, 204, 0.1);
+  height: 29em;
+  color: rgb(100, 95, 95);
+  padding-bottom: 4em;
+}
+.info-image {
+  padding: 0.4em;
+  margin-bottom: 2em;
+}
+
+.info-s {
+  text-decoration: none;
+  color: rgba(236, 8, 8, 0.753);
+  margin-top: 3em;
+}
+
+.info1 p,
+.info2 p,
+.info3 p {
+  margin-bottom: 1.4em;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  align-items: center;
+  padding: 23px;
+  margin-left: 5em;
+}
+
+.copyrights {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.social {
+  width: 15px;
+  height: 16px;
+  margin-top: 2em;
+}
+
+.socials-flex {
+  padding-left: 8em;
+  margin-top: 1.7em;
+}
+.contact-flex {
+  margin-top: 2.9em;
+  margin-left: 8.6em;
+}
+.contact {
+  margin-top: 1em;
+}
+
+.links-flex {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3em;
+  margin-left: 6em;
+}
+
+.link {
+  text-decoration: none;
+  margin-top: 0.8em;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+@media (max-width: 900px) {
+  .more-info-wrap {
+    flex-direction: column;
+  }
+  .btn-newPage1 {
+    margin-right: 0;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+    padding: 0;
+    margin-left: 0;
+  }
+
+  .social {
+    width: 15px;
+    height: 16px;
+    margin-top: 2em;
+  }
+
+  .socials-flex {
+    padding-left: 0;
+    margin-top: 0;
+  }
+  .contact-flex {
+    margin-top: 1.7em;
+    margin-right: 9.3em;
+    margin-bottom: 2em;
+  }
+  .contact {
+    margin-top: 0;
+    margin-bottom: 2em;
+    text-align: center;
+  }
+
+  .links-flex {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+    margin-left: 0;
+  }
+}
+
+/**********Second Page***********/
+
